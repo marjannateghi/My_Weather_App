@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+.card {
+    border: 1px solid #dadde1;
+    padding: 3px;
+    margin: 50px auto;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+    top: 30px;
+    left: -30px;
+}
+
+#position {
+    position: relative;
+    left: 5px;
+}
+
+#condition {
+    position: relative;
+    top: -10px;
+}
+
+#temperature {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.units {
+    position: relative;
+    top: -34px;
+    left: -5px;
+    font-weight: 100;
+}
